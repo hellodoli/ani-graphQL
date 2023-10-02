@@ -5,6 +5,9 @@ import reportWebVitals from './reportWebVitals'
 import { ApolloProvider } from '@apollo/client'
 import { getApolloClient } from 'apollo'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './styles/style.scss'
+
 async function bootStrap() {
   const client = await getApolloClient()
   const root = ReactDOM.createRoot(
